@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    /* border: 0.1px solid rgb(158, 133, 133);  */
+    font-family: "Montserrat"; 
+    box-sizing: border-box;
+}
+
+section[aria-label="navbar"
+]{
+    background-color: black
+}
+
+section[aria-label="hero"]{
+    background-image: url(assets/bg.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    /* margin: 0 0.5%; */
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: 12vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.navbar .list{
+    flex : 2;
+    display: flex;
+    list-style-type: none;
+    margin-left: -120px;
+    flex-wrap: wrap;
+
+
+}
+
+.list-item{
+    justify-content:space-between ;
+    padding: 20px 30px;
+    color: white;
+    font-size: 13px;
+}
+
+.navbar > div > img{
+    padding: 10px 40px;
+    height: 50px;
+    margin-top: 5px;
+
+    
+}
+
+.line{
+    height: 45px;
+    border-right: 1.5px solid white;
+    margin-top: 10px;
+    margin-left: -90px;
+}
+
+.button-small{
+    padding: 10px 30px;
+    margin: 10px;
+    background-color:#BA0CC5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-heading{
+    text-align: center;
+    font-size: 70px;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: #fff;
+}
+
+.hero-description{
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    padding: 15px;
+
+}
+
+.button-large{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px 12px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #BA0CC5;
+    color: white;
+}
